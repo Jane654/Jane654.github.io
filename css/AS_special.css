@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h5{
+    line-height: 175%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h6{
+    line-height: 125%;
+}
+
+h7{
+    font-family: sans-serif;
+    color: gray;
+}
+
+#video {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	top: -25vh;
+    left: -1vw;
+}
+
+#video{
+    position:fixed;
+    width:100vw;
+    height:130vh;
+    z-index:-1;
+  }
+
+#horizontal {
+	position: absolute;
+	left: 0;
+	height: 60vh;
+	width: 1200vw;
+	background-image: url("https://res.cloudinary.com/dnfghcqsz/image/upload/v1637670735/fish_long_q5lwcc.png");
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.slideanimate {
+	width: 100%;
+	visibility: hidden;
+}
+
+.slide {
+	animation-name: slide;
+	animation-duration: 1s;
+	visibility: visible;
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+.spot {
+	background-image: linear-gradient(90deg, white 50%, rgb(138, 247, 247) 50%);
+	background-position: 0%;
+	background-size: 200%;
+	font-weight: 400;
+}
+
+.spotted {
+	background-position: -100%;
+	transition: all 1s;
+}
+
