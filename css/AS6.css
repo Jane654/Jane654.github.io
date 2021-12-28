@@ -1,0 +1,55 @@
+#start {
+    background-image: url("https://res.cloudinary.com/dnfghcqsz/image/upload/v1640423598/20210916173540-f47ab2b7a72b344575bc0c601b6b3e1c-desktop_dpa5us.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50%; 
+    height: 100vh;
+    margin: 0;
+}
+
+#bg {
+	background-image: url("https://res.cloudinary.com/dnfghcqsz/image/upload/v1640437437/%E6%B6%88%E9%98%B2_rei7ym.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 80vw;
+	background-position: 0 0;
+}
+
+#section3{
+    background-image: url("https://res.cloudinary.com/dnfghcqsz/image/upload/v1640444329/20200306165417-f8a205e1df9427a8860f760beeb1be42-desktop_msn634.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50%; 
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color:white
+}
+
+h5,h3,h4{ 
+    color:black;
+}
+
+h5{
+    line-height: 175%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.slideanimate {
+	visibility: hidden;
+}
+
+.slide {
+	visibility: visible;
+}
+
