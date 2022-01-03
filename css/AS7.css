@@ -1,0 +1,9 @@
+#start {
+    background-image: url("https://res.cloudinary.com/dnfghcqsz/image/upload/v1641196230/AnyConv.com__IMG_1517_t95fjy.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50%; 
+    height: 100vh;
+    margin: 0;
+}
